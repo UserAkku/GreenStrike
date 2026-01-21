@@ -1,31 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GreenStrike Golf - EAT. DRINK. PLAY.</title>
+    <meta name="description"
+        content="GreenStrike Golf is a premium Toptracer driving range and adventure golf venue. Experience technology-driven golf training and entertainment.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- Custom Cursor -->
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <!-- Navigation -->
     <div id="nav">
-         <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/logo-white.svg" alt="ok">
-         <h4>Toptracer Range</h4>
-         <h4>Golf Lessons</h4>
-         <h4>Adventure Golf</h4>
-         <h4>Café</h4>
-         <h4>Events</h4>
+        <a href="#" class="logo">
+            <div class="logo-icon"></div>
+            <div class="logo-text">
+                <span class="brand-name">GREEN<span>STRIKE</span></span>
+                <span class="tagline">Premium Golf Experience</span>
+            </div>
+        </a>
+        <div class="nav-links">
+            <a href="#page3">
+                <h4>Toptracer Range</h4>
+            </a>
+            <a href="#page4">
+                <h4>Golf Lessons</h4>
+            </a>
+            <a href="#page2">
+                <h4>Adventure Golf</h4>
+            </a>
+            <a href="#page5">
+                <h4>Café</h4>
+            </a>
+            <a href="#page5">
+                <h4>Events</h4>
+            </a>
+        </div>
     </div>
+
+    <!-- Hero Video Background -->
     <video autoplay loop muted src="hero.mp4"></video>
+
+    <!-- Main Content -->
     <div id="main">
+        <!-- Page 1: Hero Section -->
         <div id="page1">
             <h1>EAT. DRINK. PLAY.</h1>
-            <h2>WELCOME TO SIDCUP FAMILY GOLF!</h2>
-            <P>Sidcup Family Golf is a Toptracer driving range and crazy golf venue in Sidcup, South East London. Passionate about technology, player development and making golf fun and accessible to everyone</P>
+            <h2>WELCOME TO GREENSTRIKE GOLF!</h2>
+            <p>GreenStrike Golf is a premium Toptracer driving range and adventure golf destination.
+                Passionate about technology, player development and making golf fun and accessible to everyone.</p>
         </div>
-        <div id="page2">    </div>
+
+        <!-- Page 2: About Section -->
+        <div id="page2">
+            <div class="scroller">
+                <div class="scroller-text">
+                    <h3>EXPERIENCE THE DIFFERENCE</h3>
+                    <h3>•</h3>
+                    <h3>PLAY LIKE A PRO</h3>
+                    <h3>•</h3>
+                    <h3>TECHNOLOGY MEETS FUN</h3>
+                    <h3>•</h3>
+                    <h3>EXPERIENCE THE DIFFERENCE</h3>
+                    <h3>•</h3>
+                    <h3>PLAY LIKE A PRO</h3>
+                    <h3>•</h3>
+                    <h3>TECHNOLOGY MEETS FUN</h3>
+                    <h3>•</h3>
+                </div>
+            </div>
+            <div class="about-us">
+                <img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=600&q=80"
+                    alt="About Us - Golf Course">
+                <div class="about-us-text">
+                    <h4>ABOUT US</h4>
+                    <p>Whether you're an absolute beginner or a pro, our facilities cater to all skill levels. Practice,
+                        learn and play in our state-of-the-art Toptracer Range, or challenge your friends and family to
+                        a round of Adventure Golf.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 3: Features Cards -->
+        <div id="page3">
+            <p>We're always looking for new ways to make golf more enjoyable. Toptracer Range offers golfers the
+                technology used in PGA Tour events, enabling you to track every shot and compete against friends and
+                family.</p>
+
+            <div class="cards-container">
+                <div class="card" id="card1">
+                    <div class="overlay">
+                        <h4>TOPTRACER RANGE</h4>
+                        <p>High-tech bays, real-time ball tracking & game modes for all levels</p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="overlay">
+                        <h4>GOLF LESSONS</h4>
+                        <p>PGA professional coaching for beginners to advanced players</p>
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <div class="overlay">
+                        <h4>ADVENTURE GOLF</h4>
+                        <p>18 holes of family-friendly crazy golf fun</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 4: Green Highlight Section -->
+        <div id="page4">
+            <div class="highlight-left">
+                <h3>WHAT MAKES US DIFFERENT</h3>
+                <p>Our 24 floodlit bays are open from early morning until late at night, 7 days a week. With Toptracer
+                    Range technology in every bay, you can track your shots like a pro.</p>
+                <button id="highlight-btn">LEARN MORE</button>
+            </div>
+            <div class="highlight-right">
+                <img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600&q=80" alt="Golf Range">
+            </div>
+        </div>
+
+        <!-- Page 5: Testimonials & Events -->
+        <div id="page5">
+            <div class="testimonial">
+                <h2>"BEST DRIVING RANGE IN SOUTH LONDON"</h2>
+                <p>— Happy Customer</p>
+            </div>
+            <div class="events-section">
+                <h3>UPCOMING EVENTS</h3>
+                <div class="event-cards">
+                    <div class="event-card">
+                        <div class="date">
+                            <span class="day">25</span>
+                            <span class="month">JAN</span>
+                        </div>
+                        <div class="event-info">
+                            <h4>Junior Golf Camp</h4>
+                            <p>Perfect for kids aged 6-14</p>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="date">
+                            <span class="day">02</span>
+                            <span class="month">FEB</span>
+                        </div>
+                        <div class="event-info">
+                            <h4>Ladies Night</h4>
+                            <p>Golf, drinks & fun for all levels</p>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="date">
+                            <span class="day">15</span>
+                            <span class="month">FEB</span>
+                        </div>
+                        <div class="event-info">
+                            <h4>Corporate Event</h4>
+                            <p>Team building with a twist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="footer-brand">
+                        <div class="footer-logo-icon"></div>
+                        <span class="footer-brand-name">GREEN<span>STRIKE</span></span>
+                    </div>
+                    <p>Making golf fun and accessible to everyone.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#">Toptracer Range</a>
+                    <a href="#">Golf Lessons</a>
+                    <a href="#">Adventure Golf</a>
+                    <a href="#">Café</a>
+                    <a href="#">Events</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>📍 Premium Location, Central City</p>
+                    <p>📞 +91 98765 43210</p>
+                    <p>✉️ hello@greenstrikegolf.com</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <span class="social-icon">📘</span>
+                        <span class="social-icon">📸</span>
+                        <span class="social-icon">🐦</span>
+                        <span class="social-icon">📺</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 GreenStrike Golf. All rights reserved.</p>
+            </div>
+        </footer>
     </div>
+
+    <!-- GSAP Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js  "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
+</CodeContent>
+<parameter name="EmptyFile">false
